@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Strefa Progress — Parkingi</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    body { font-family: system-ui, -apple-system, sans-serif; background: #f8fafc;
+            color: #1e293b; margin: 0; padding: 20px; }
+    .container { max-width: 700px; margin: auto; }
+    header { background: #1d4ed8; color: white; padding: 24px 28px; border-radius: 12px;
+              margin-bottom: 24px; }
+    header h1 { margin: 0 0 4px; font-size: 1.5rem; }
+    header p { margin: 0; opacity: .75; font-size: .9rem; }
+    .summary { display: flex; gap: 12px; margin-bottom: 24px; }
+    .card { background: white; border-radius: 10px; padding: 16px 20px; flex: 1;
+             box-shadow: 0 1px 3px rgba(0,0,0,.08); text-align: center; }
+    .card .num { font-size: 2rem; font-weight: 700; color: #1d4ed8; }
+    .card .lbl { font-size: .8rem; color: #64748b; margin-top: 2px; }
+    section { background: white; border-radius: 10px; padding: 20px 24px;
+               margin-bottom: 20px; box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+    section h2 { margin: 0 0 16px; font-size: 1.1rem; display: flex;
+                  align-items: center; gap: 10px; }
+    .badge { background: #dbeafe; color: #1d4ed8; font-size: .75rem; font-weight: 600;
+              padding: 2px 8px; border-radius: 20px; }
+    table { width: 100%; border-collapse: collapse; font-size: .9rem; }
+    th { text-align: left; padding: 6px 10px; background: #f1f5f9;
+          color: #64748b; font-size: .78rem; text-transform: uppercase; }
+    td { padding: 7px 10px; border-bottom: 1px solid #f1f5f9; }
+    tr:last-child td { border-bottom: none; }
+    ul.changes { margin: 0; padding: 0 0 0 20px; }
+    ul.changes li { margin-bottom: 6px; font-size: .9rem; }
+    .change-changed { color: #d97706; }
+    .change-new { color: #2563eb; }
+    .change-removed { color: #dc2626; }
+    footer { text-align: center; font-size: .8rem; color: #94a3b8; margin-top: 24px; }
+    footer a { color: #94a3b8; }
+  </style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>Strefa Progress — Parkingi i komórki</h1>
+    <p>Ostatnie sprawdzenie: 2026-03-24 09:52 UTC</p>
+  </header>
+  <div class="summary">
+    <div class="card"><div class="num">14</div><div class="lbl">Wolnych miejsc</div></div>
+    <div class="card"><div class="num">43</div><div class="lbl">Sprzedanych</div></div>
+    <div class="card"><div class="num">57</div><div class="lbl">Łącznie</div></div>
+  </div>
+  <section><h2>Ostatnie zmiany</h2><ul class="changes"><li class="change-new">&#x1F195; Parking zewnętrzny #15 — pojawił się (Sprzedane)</li><li class="change-new">&#x1F195; Parking zewnętrzny #21 — pojawił się (Sprzedane)</li><li class="change-new">&#x1F195; Parking zewnętrzny #37 — pojawił się (Sprzedane)</li><li class="change-new">&#x1F195; Parking zewnętrzny #29 — pojawił się (Wolne)</li><li class="change-new">&#x1F195; Parking zewnętrzny #38 — pojawił się (Sprzedane)</li><li class="change-new">&#x1F195; Parking zewnętrzny #20 — pojawił się (Sprzedane)</li><li class="change-new">&#x1F195; Parking zewnętrzny #56 — pojawił się (Wolne)</li><li class="change-new">&#x1F195; Parking zewnętrzny #34 — pojawił się (Sprzedane)</li><li class="change-new">&#x1F195; Parking zewnętrzny #7 — pojawił się (Sprzedane)</li><li class="change-new">&#x1F195; Parking zewnętrzny #17 — pojawił się (Sprzedane)</li><li class="change-new">&#x1F195; Parking zewnętrzny #36 — pojawił się (Sprzedane)</li><li class="change-new">&#x1F195; Parking zewnętrzny #2 — pojawił się (Sprzedane)</li><li class="change-new">&#x1F195; Parking zewnętrzny #47 — pojawił się (Sprzedane)</li><li class="change-new">&#x1F195; Parking zewnętrzny #40 — pojawił się (Sprzedane)</li><li class="change-new">&#x1F195; Parking zewnętrzny #6 — pojawił się (Sprzedane)</li><li class="change-new">&#x1F195; Parking zewnętrzny #32 — pojawił się (Wolne)</li><li class="change-new">&#x1F195; Parking zewnętrzny #51 — pojawił się (Sprzedane)</li><li class="change-new">&#x1F195; Parking zewnętrzny #25 — pojawił się (Sprzedane)</li><li class="change-new">&#x1F195; Parking zewnętrzny #16 — pojawił się (Sprzedane)</li><li class="change-new">&#x1F195; Parking zewnętrzny #9 — pojawił się (Sprzedane)</li><li class="change-new">&#x1F195; Parking zewnętrzny #13 — pojawił się (Wolne)</li><li class="change-new">&#x1F195; Parking zewnętrzny #23 — pojawił się (Wolne)</li><li class="change-new">&#x1F195; Parking zewnętrzny #4 — pojawił się (Sprzedane)</li><li class="change-new">&#x1F195; Parking zewnętrzny #11 — pojawił się (Sprzedane)</li><li class="change-new">&#x1F195; Parking zewnętrzny #10 — pojawił się (Sprzedane)</li><li class="change-new">&#x1F195; Parking zewnętrzny #49 — pojawił się (Sprzedane)</li><li class="change-new">&#x1F195; Parking zewnętrzny #46 — pojawił się (Sprzedane)</li><li class="change-new">&#x1F195; Parking zewnętrzny #5 — pojawił się (Sprzedane)</li><li class="change-new">&#x1F195; Parking zewnętrzny #45 — pojawił się (Sprzedane)</li><li class="change-new">&#x1F195; Parking zewnętrzny #14 — pojawił się (Sprzedane)</li><li class="change-new">&#x1F195; Parking zewnętrzny #50 — pojawił się (Sprzedane)</li><li class="change-new">&#x1F195; Parking zewnętrzny #28 — pojawił się (Wolne)</li><li class="change-new">&#x1F195; Parking zewnętrzny #55 — pojawił się (Sprzedane)</li><li class="change-new">&#x1F195; Parking zewnętrzny #31 — pojawił się (Sprzedane)</li><li class="change-new">&#x1F195; Parking zewnętrzny #22 — pojawił się (Sprzedane)</li><li class="change-new">&#x1F195; Parking zewnętrzny #42 — pojawił się (Sprzedane)</li><li class="change-new">&#x1F195; Parking zewnętrzny #44 — pojawił się (Wolne)</li><li class="change-new">&#x1F195; Parking zewnętrzny #48 — pojawił się (Sprzedane)</li><li class="change-new">&#x1F195; Parking zewnętrzny #8 — pojawił się (Sprzedane)</li><li class="change-new">&#x1F195; Parking zewnętrzny #3 — pojawił się (Sprzedane)</li><li class="change-new">&#x1F195; Parking zewnętrzny #1 — pojawił się (Wolne)</li><li class="change-new">&#x1F195; Parking zewnętrzny #52 — pojawił się (Sprzedane)</li><li class="change-new">&#x1F195; Komórka lokatorska #KL.97A — pojawił się (Wolne)</li><li class="change-new">&#x1F195; Parking zewnętrzny #27 — pojawił się (Wolne)</li><li class="change-new">&#x1F195; Parking zewnętrzny #43 — pojawił się (Sprzedane)</li><li class="change-new">&#x1F195; Parking zewnętrzny #54 — pojawił się (Wolne)</li><li class="change-new">&#x1F195; Parking zewnętrzny #41 — pojawił się (Sprzedane)</li><li class="change-new">&#x1F195; Parking zewnętrzny #30 — pojawił się (Sprzedane)</li><li class="change-new">&#x1F195; Parking zewnętrzny #33 — pojawił się (Sprzedane)</li><li class="change-new">&#x1F195; Parking zewnętrzny #26 — pojawił się (Wolne)</li><li class="change-new">&#x1F195; Parking zewnętrzny #12 — pojawił się (Sprzedane)</li><li class="change-new">&#x1F195; Parking zewnętrzny #24 — pojawił się (Wolne)</li><li class="change-new">&#x1F195; Parking zewnętrzny #39 — pojawił się (Wolne)</li><li class="change-new">&#x1F195; Parking zewnętrzny #35 — pojawił się (Sprzedane)</li><li class="change-new">&#x1F195; Parking zewnętrzny #53 — pojawił się (Sprzedane)</li><li class="change-new">&#x1F195; Parking zewnętrzny #18 — pojawił się (Sprzedane)</li><li class="change-new">&#x1F195; Parking zewnętrzny #19 — pojawił się (Sprzedane)</li></ul></section>
+  
+        <section>
+          <h2>Parking zewnętrzny <span class="badge">13/56 wolnych</span></h2>
+          <table>
+            <tr><th>Numer</th><th>Status</th><th>Cena</th></tr>
+            <tr><td>#1</td><td style="color:#22c55e;font-weight:600">Wolne</td><td>59,000 PLN</td></tr><tr><td>#2</td><td style="color:#ef4444;font-weight:600">Sprzedane</td><td>42,000 PLN</td></tr><tr><td>#3</td><td style="color:#ef4444;font-weight:600">Sprzedane</td><td>59,000 PLN</td></tr><tr><td>#4</td><td style="color:#ef4444;font-weight:600">Sprzedane</td><td>50,000 PLN</td></tr><tr><td>#5</td><td style="color:#ef4444;font-weight:600">Sprzedane</td><td>50,000 PLN</td></tr><tr><td>#6</td><td style="color:#ef4444;font-weight:600">Sprzedane</td><td>44,000 PLN</td></tr><tr><td>#7</td><td style="color:#ef4444;font-weight:600">Sprzedane</td><td>50,000 PLN</td></tr><tr><td>#8</td><td style="color:#ef4444;font-weight:600">Sprzedane</td><td>44,000 PLN</td></tr><tr><td>#9</td><td style="color:#ef4444;font-weight:600">Sprzedane</td><td>50,000 PLN</td></tr><tr><td>#10</td><td style="color:#ef4444;font-weight:600">Sprzedane</td><td>50,000 PLN</td></tr><tr><td>#11</td><td style="color:#ef4444;font-weight:600">Sprzedane</td><td>50,000 PLN</td></tr><tr><td>#12</td><td style="color:#ef4444;font-weight:600">Sprzedane</td><td>59,000 PLN</td></tr><tr><td>#13</td><td style="color:#22c55e;font-weight:600">Wolne</td><td>59,000 PLN</td></tr><tr><td>#14</td><td style="color:#ef4444;font-weight:600">Sprzedane</td><td>59,000 PLN</td></tr><tr><td>#15</td><td style="color:#ef4444;font-weight:600">Sprzedane</td><td>59,000 PLN</td></tr><tr><td>#16</td><td style="color:#ef4444;font-weight:600">Sprzedane</td><td>59,000 PLN</td></tr><tr><td>#17</td><td style="color:#ef4444;font-weight:600">Sprzedane</td><td>59,000 PLN</td></tr><tr><td>#18</td><td style="color:#ef4444;font-weight:600">Sprzedane</td><td>59,000 PLN</td></tr><tr><td>#19</td><td style="color:#ef4444;font-weight:600">Sprzedane</td><td>59,000 PLN</td></tr><tr><td>#20</td><td style="color:#ef4444;font-weight:600">Sprzedane</td><td>59,000 PLN</td></tr><tr><td>#21</td><td style="color:#ef4444;font-weight:600">Sprzedane</td><td>50,000 PLN</td></tr><tr><td>#22</td><td style="color:#ef4444;font-weight:600">Sprzedane</td><td>59,000 PLN</td></tr><tr><td>#23</td><td style="color:#22c55e;font-weight:600">Wolne</td><td>59,000 PLN</td></tr><tr><td>#24</td><td style="color:#22c55e;font-weight:600">Wolne</td><td>59,000 PLN</td></tr><tr><td>#25</td><td style="color:#ef4444;font-weight:600">Sprzedane</td><td>64,000 PLN</td></tr><tr><td>#26</td><td style="color:#22c55e;font-weight:600">Wolne</td><td>59,000 PLN</td></tr><tr><td>#27</td><td style="color:#22c55e;font-weight:600">Wolne</td><td>64,000 PLN</td></tr><tr><td>#28</td><td style="color:#22c55e;font-weight:600">Wolne</td><td>59,000 PLN</td></tr><tr><td>#29</td><td style="color:#22c55e;font-weight:600">Wolne</td><td>59,000 PLN</td></tr><tr><td>#30</td><td style="color:#ef4444;font-weight:600">Sprzedane</td><td>50,000 PLN</td></tr><tr><td>#31</td><td style="color:#ef4444;font-weight:600">Sprzedane</td><td>59,000 PLN</td></tr><tr><td>#32</td><td style="color:#22c55e;font-weight:600">Wolne</td><td>59,000 PLN</td></tr><tr><td>#33</td><td style="color:#ef4444;font-weight:600">Sprzedane</td><td>35,000 PLN</td></tr><tr><td>#34</td><td style="color:#ef4444;font-weight:600">Sprzedane</td><td>50,000 PLN</td></tr><tr><td>#35</td><td style="color:#ef4444;font-weight:600">Sprzedane</td><td>50,000 PLN</td></tr><tr><td>#36</td><td style="color:#ef4444;font-weight:600">Sprzedane</td><td>42,000 PLN</td></tr><tr><td>#37</td><td style="color:#ef4444;font-weight:600">Sprzedane</td><td>59,000 PLN</td></tr><tr><td>#38</td><td style="color:#ef4444;font-weight:600">Sprzedane</td><td>42,000 PLN</td></tr><tr><td>#39</td><td style="color:#22c55e;font-weight:600">Wolne</td><td>59,000 PLN</td></tr><tr><td>#40</td><td style="color:#ef4444;font-weight:600">Sprzedane</td><td>59,000 PLN</td></tr><tr><td>#41</td><td style="color:#ef4444;font-weight:600">Sprzedane</td><td>59,000 PLN</td></tr><tr><td>#42</td><td style="color:#ef4444;font-weight:600">Sprzedane</td><td>59,000 PLN</td></tr><tr><td>#43</td><td style="color:#ef4444;font-weight:600">Sprzedane</td><td>59,000 PLN</td></tr><tr><td>#44</td><td style="color:#22c55e;font-weight:600">Wolne</td><td>59,000 PLN</td></tr><tr><td>#45</td><td style="color:#ef4444;font-weight:600">Sprzedane</td><td>42,000 PLN</td></tr><tr><td>#46</td><td style="color:#ef4444;font-weight:600">Sprzedane</td><td>50,000 PLN</td></tr><tr><td>#47</td><td style="color:#ef4444;font-weight:600">Sprzedane</td><td>42,000 PLN</td></tr><tr><td>#48</td><td style="color:#ef4444;font-weight:600">Sprzedane</td><td>50,000 PLN</td></tr><tr><td>#49</td><td style="color:#ef4444;font-weight:600">Sprzedane</td><td>50,000 PLN</td></tr><tr><td>#50</td><td style="color:#ef4444;font-weight:600">Sprzedane</td><td>44,000 PLN</td></tr><tr><td>#51</td><td style="color:#ef4444;font-weight:600">Sprzedane</td><td>40,000 PLN</td></tr><tr><td>#52</td><td style="color:#ef4444;font-weight:600">Sprzedane</td><td>42,000 PLN</td></tr><tr><td>#53</td><td style="color:#ef4444;font-weight:600">Sprzedane</td><td>59,000 PLN</td></tr><tr><td>#54</td><td style="color:#22c55e;font-weight:600">Wolne</td><td>59,000 PLN</td></tr><tr><td>#55</td><td style="color:#ef4444;font-weight:600">Sprzedane</td><td>50,000 PLN</td></tr><tr><td>#56</td><td style="color:#22c55e;font-weight:600">Wolne</td><td>59,000 PLN</td></tr>
+          </table>
+        </section>
+        
+        <section>
+          <h2>Komórka lokatorska <span class="badge">1/1 wolnych</span></h2>
+          <table>
+            <tr><th>Numer</th><th>Status</th><th>Cena</th></tr>
+            <tr><td>#KL.97A</td><td style="color:#22c55e;font-weight:600">Wolne</td><td>51,320 PLN</td></tr>
+          </table>
+        </section>
+        
+  <footer>
+    Dane: <a href="https://strefaprogress.pl/mieszkania/" target="_blank">strefaprogress.pl/mieszkania/</a>
+    · Aktualizacja automatyczna raz dziennie
+  </footer>
+</div>
+</body>
+</html>
