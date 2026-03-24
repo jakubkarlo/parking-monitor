@@ -1,4 +1,404 @@
 {
-  "items": {},
-  "last_check": null
+  "items": {
+    "15": {
+      "display_name": "15",
+      "type": "parking_outdoor",
+      "sales_status": "sold",
+      "cost": 59000.0,
+      "currency": "PLN"
+    },
+    "21": {
+      "display_name": "21",
+      "type": "parking_outdoor",
+      "sales_status": "sold",
+      "cost": 50000.0,
+      "currency": "PLN"
+    },
+    "37": {
+      "display_name": "37",
+      "type": "parking_outdoor",
+      "sales_status": "sold",
+      "cost": 59000.0,
+      "currency": "PLN"
+    },
+    "29": {
+      "display_name": "29",
+      "type": "parking_outdoor",
+      "sales_status": "free",
+      "cost": 59000.0,
+      "currency": "PLN"
+    },
+    "38": {
+      "display_name": "38",
+      "type": "parking_outdoor",
+      "sales_status": "sold",
+      "cost": 42000.0,
+      "currency": "PLN"
+    },
+    "20": {
+      "display_name": "20",
+      "type": "parking_outdoor",
+      "sales_status": "sold",
+      "cost": 59000.0,
+      "currency": "PLN"
+    },
+    "56": {
+      "display_name": "56",
+      "type": "parking_outdoor",
+      "sales_status": "free",
+      "cost": 59000.0,
+      "currency": "PLN"
+    },
+    "34": {
+      "display_name": "34",
+      "type": "parking_outdoor",
+      "sales_status": "sold",
+      "cost": 50000.0,
+      "currency": "PLN"
+    },
+    "7": {
+      "display_name": "7",
+      "type": "parking_outdoor",
+      "sales_status": "sold",
+      "cost": 50000.0,
+      "currency": "PLN"
+    },
+    "17": {
+      "display_name": "17",
+      "type": "parking_outdoor",
+      "sales_status": "sold",
+      "cost": 59000.0,
+      "currency": "PLN"
+    },
+    "36": {
+      "display_name": "36",
+      "type": "parking_outdoor",
+      "sales_status": "sold",
+      "cost": 42000.0,
+      "currency": "PLN"
+    },
+    "2": {
+      "display_name": "2",
+      "type": "parking_outdoor",
+      "sales_status": "sold",
+      "cost": 42000.0,
+      "currency": "PLN"
+    },
+    "47": {
+      "display_name": "47",
+      "type": "parking_outdoor",
+      "sales_status": "sold",
+      "cost": 42000.0,
+      "currency": "PLN"
+    },
+    "40": {
+      "display_name": "40",
+      "type": "parking_outdoor",
+      "sales_status": "sold",
+      "cost": 59000.0,
+      "currency": "PLN"
+    },
+    "6": {
+      "display_name": "6",
+      "type": "parking_outdoor",
+      "sales_status": "sold",
+      "cost": 44000.0,
+      "currency": "PLN"
+    },
+    "32": {
+      "display_name": "32",
+      "type": "parking_outdoor",
+      "sales_status": "free",
+      "cost": 59000.0,
+      "currency": "PLN"
+    },
+    "51": {
+      "display_name": "51",
+      "type": "parking_outdoor",
+      "sales_status": "sold",
+      "cost": 40000.0,
+      "currency": "PLN"
+    },
+    "25": {
+      "display_name": "25",
+      "type": "parking_outdoor",
+      "sales_status": "sold",
+      "cost": 64000.0,
+      "currency": "PLN"
+    },
+    "16": {
+      "display_name": "16",
+      "type": "parking_outdoor",
+      "sales_status": "sold",
+      "cost": 59000.0,
+      "currency": "PLN"
+    },
+    "9": {
+      "display_name": "9",
+      "type": "parking_outdoor",
+      "sales_status": "sold",
+      "cost": 50000.0,
+      "currency": "PLN"
+    },
+    "13": {
+      "display_name": "13",
+      "type": "parking_outdoor",
+      "sales_status": "free",
+      "cost": 59000.0,
+      "currency": "PLN"
+    },
+    "23": {
+      "display_name": "23",
+      "type": "parking_outdoor",
+      "sales_status": "free",
+      "cost": 59000.0,
+      "currency": "PLN"
+    },
+    "4": {
+      "display_name": "4",
+      "type": "parking_outdoor",
+      "sales_status": "sold",
+      "cost": 50000.0,
+      "currency": "PLN"
+    },
+    "11": {
+      "display_name": "11",
+      "type": "parking_outdoor",
+      "sales_status": "sold",
+      "cost": 50000.0,
+      "currency": "PLN"
+    },
+    "10": {
+      "display_name": "10",
+      "type": "parking_outdoor",
+      "sales_status": "sold",
+      "cost": 50000.0,
+      "currency": "PLN"
+    },
+    "49": {
+      "display_name": "49",
+      "type": "parking_outdoor",
+      "sales_status": "sold",
+      "cost": 50000.0,
+      "currency": "PLN"
+    },
+    "46": {
+      "display_name": "46",
+      "type": "parking_outdoor",
+      "sales_status": "sold",
+      "cost": 50000.0,
+      "currency": "PLN"
+    },
+    "5": {
+      "display_name": "5",
+      "type": "parking_outdoor",
+      "sales_status": "sold",
+      "cost": 50000.0,
+      "currency": "PLN"
+    },
+    "45": {
+      "display_name": "45",
+      "type": "parking_outdoor",
+      "sales_status": "sold",
+      "cost": 42000.0,
+      "currency": "PLN"
+    },
+    "14": {
+      "display_name": "14",
+      "type": "parking_outdoor",
+      "sales_status": "sold",
+      "cost": 59000.0,
+      "currency": "PLN"
+    },
+    "50": {
+      "display_name": "50",
+      "type": "parking_outdoor",
+      "sales_status": "sold",
+      "cost": 44000.0,
+      "currency": "PLN"
+    },
+    "28": {
+      "display_name": "28",
+      "type": "parking_outdoor",
+      "sales_status": "free",
+      "cost": 59000.0,
+      "currency": "PLN"
+    },
+    "55": {
+      "display_name": "55",
+      "type": "parking_outdoor",
+      "sales_status": "sold",
+      "cost": 50000.0,
+      "currency": "PLN"
+    },
+    "31": {
+      "display_name": "31",
+      "type": "parking_outdoor",
+      "sales_status": "sold",
+      "cost": 59000.0,
+      "currency": "PLN"
+    },
+    "22": {
+      "display_name": "22",
+      "type": "parking_outdoor",
+      "sales_status": "sold",
+      "cost": 59000.0,
+      "currency": "PLN"
+    },
+    "42": {
+      "display_name": "42",
+      "type": "parking_outdoor",
+      "sales_status": "sold",
+      "cost": 59000.0,
+      "currency": "PLN"
+    },
+    "44": {
+      "display_name": "44",
+      "type": "parking_outdoor",
+      "sales_status": "free",
+      "cost": 59000.0,
+      "currency": "PLN"
+    },
+    "48": {
+      "display_name": "48",
+      "type": "parking_outdoor",
+      "sales_status": "sold",
+      "cost": 50000.0,
+      "currency": "PLN"
+    },
+    "8": {
+      "display_name": "8",
+      "type": "parking_outdoor",
+      "sales_status": "sold",
+      "cost": 44000.0,
+      "currency": "PLN"
+    },
+    "3": {
+      "display_name": "3",
+      "type": "parking_outdoor",
+      "sales_status": "sold",
+      "cost": 59000.0,
+      "currency": "PLN"
+    },
+    "1": {
+      "display_name": "1",
+      "type": "parking_outdoor",
+      "sales_status": "free",
+      "cost": 59000.0,
+      "currency": "PLN"
+    },
+    "52": {
+      "display_name": "52",
+      "type": "parking_outdoor",
+      "sales_status": "sold",
+      "cost": 42000.0,
+      "currency": "PLN"
+    },
+    "KL.97A": {
+      "display_name": "KL.97A",
+      "type": "storage",
+      "sales_status": "free",
+      "cost": 51320.0,
+      "currency": "PLN"
+    },
+    "27": {
+      "display_name": "27",
+      "type": "parking_outdoor",
+      "sales_status": "free",
+      "cost": 64000.0,
+      "currency": "PLN"
+    },
+    "43": {
+      "display_name": "43",
+      "type": "parking_outdoor",
+      "sales_status": "sold",
+      "cost": 59000.0,
+      "currency": "PLN"
+    },
+    "54": {
+      "display_name": "54",
+      "type": "parking_outdoor",
+      "sales_status": "free",
+      "cost": 59000.0,
+      "currency": "PLN"
+    },
+    "41": {
+      "display_name": "41",
+      "type": "parking_outdoor",
+      "sales_status": "sold",
+      "cost": 59000.0,
+      "currency": "PLN"
+    },
+    "30": {
+      "display_name": "30",
+      "type": "parking_outdoor",
+      "sales_status": "sold",
+      "cost": 50000.0,
+      "currency": "PLN"
+    },
+    "33": {
+      "display_name": "33",
+      "type": "parking_outdoor",
+      "sales_status": "sold",
+      "cost": 35000.0,
+      "currency": "PLN"
+    },
+    "26": {
+      "display_name": "26",
+      "type": "parking_outdoor",
+      "sales_status": "free",
+      "cost": 59000.0,
+      "currency": "PLN"
+    },
+    "12": {
+      "display_name": "12",
+      "type": "parking_outdoor",
+      "sales_status": "sold",
+      "cost": 59000.0,
+      "currency": "PLN"
+    },
+    "24": {
+      "display_name": "24",
+      "type": "parking_outdoor",
+      "sales_status": "free",
+      "cost": 59000.0,
+      "currency": "PLN"
+    },
+    "39": {
+      "display_name": "39",
+      "type": "parking_outdoor",
+      "sales_status": "free",
+      "cost": 59000.0,
+      "currency": "PLN"
+    },
+    "35": {
+      "display_name": "35",
+      "type": "parking_outdoor",
+      "sales_status": "sold",
+      "cost": 50000.0,
+      "currency": "PLN"
+    },
+    "53": {
+      "display_name": "53",
+      "type": "parking_outdoor",
+      "sales_status": "sold",
+      "cost": 59000.0,
+      "currency": "PLN"
+    },
+    "18": {
+      "display_name": "18",
+      "type": "parking_outdoor",
+      "sales_status": "sold",
+      "cost": 59000.0,
+      "currency": "PLN"
+    },
+    "19": {
+      "display_name": "19",
+      "type": "parking_outdoor",
+      "sales_status": "sold",
+      "cost": 59000.0,
+      "currency": "PLN"
+    }
+  },
+  "last_check": "2026-03-24 10:15 UTC"
 }
