@@ -266,13 +266,6 @@
       "cost": 50000.0,
       "currency": "PLN"
     },
-    "1": {
-      "display_name": "1",
-      "type": "parking_outdoor",
-      "sales_status": "free",
-      "cost": 59000.0,
-      "currency": "PLN"
-    },
     "8": {
       "display_name": "8",
       "type": "parking_outdoor",
@@ -284,6 +277,13 @@
       "display_name": "3",
       "type": "parking_outdoor",
       "sales_status": "sold",
+      "cost": 59000.0,
+      "currency": "PLN"
+    },
+    "1": {
+      "display_name": "1",
+      "type": "parking_outdoor",
+      "sales_status": "free",
       "cost": 59000.0,
       "currency": "PLN"
     },
@@ -400,5 +400,5 @@
       "currency": "PLN"
     }
   },
-  "last_check": "2026-03-28 07:49 UTC"
+  "last_check": "2026-03-29 07:55 UTC"
 }
