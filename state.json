@@ -143,7 +143,7 @@
     "13": {
       "display_name": "13",
       "type": "parking_outdoor",
-      "sales_status": "sold",
+      "sales_status": "free",
       "cost": 59000.0,
       "currency": "PLN"
     },
@@ -318,7 +318,7 @@
     "54": {
       "display_name": "54",
       "type": "parking_outdoor",
-      "sales_status": "free",
+      "sales_status": "sold",
       "cost": 59000.0,
       "currency": "PLN"
     },
@@ -400,5 +400,5 @@
       "currency": "PLN"
     }
   },
-  "last_check": "2026-04-27 09:24 UTC"
+  "last_check": "2026-04-28 09:28 UTC"
 }
