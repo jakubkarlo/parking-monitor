@@ -381,7 +381,7 @@
     "53": {
       "display_name": "53",
       "type": "parking_outdoor",
-      "sales_status": "sold",
+      "sales_status": "free",
       "cost": 59000.0,
       "currency": "PLN"
     },
@@ -400,5 +400,5 @@
       "currency": "PLN"
     }
   },
-  "last_check": "2026-10-07 14:21 UTC"
+  "last_check": "2026-10-08 14:29 UTC"
 }
